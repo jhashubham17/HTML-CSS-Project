@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(239, 242, 245);
+    font-family: 'Poppins', sans-serif;
+    position: static;
+}
+
+body {
+    background-color: rgb(20, 16, 16);
+}
+
+.section1 {
+    display: flex;
+}
+
+.rightSide {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+
+.leftSide {
+    width: 60%;
+
+}
+
+.navBar {
+    list-style: none;
+    display: flex;
+    column-gap: 60px;
+    margin-top: 25px;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.logo1 {
+    margin-top: 30px;
+}
+
+.button1 {
+    padding: 12px 35px;
+    background-color: rgb(67, 64, 64);
+    border-radius: 10px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 0px 0px rgb(176, 167, 163);
+}
+
+.bckgndLogo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.details {
+    margin-left: 60px;
+}
+
+.h1 {
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+
+.h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+
+.para {
+    font-size: 15px;
+    margin-top: 15px;
+    font-style: inherit;
+    letter-spacing: 1px;
+}
+
+.button2 {
+    display: flex;
+    background-color: rgb(67, 64, 64);
+    padding: 10px 20px;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.para2 {
+    margin-left: 20px;
+}
+
+.section2 {
+    display: flex;
+}
+
+.CompyLogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 100px;
+}
+
+.specs {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.mainspecs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.bluetooth {
+    margin: 40px;
+}
+
+.mic {
+    margin: 40px;
+}
+
+.charger {
+    margin-top: 40px;
+}
+
+.specsImg {
+    margin-left: 40px;
+}
+
+span {
+    font-size: 15px;
+}
+
+.para3 {
+    margin-top: 5px;
+}
+
+.caseLogo {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.caseImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px
+}
+
+.caseWri {
+    margin-left: 60px;
+}
+
+.para4 {
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.button3 {
+    background-color: rgb(74, 75, 75);
+    padding: 10px 30px;
+    border-radius: 10px;
+    display: flex;
+    font-weight: bold;
+}
+
+.section5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    height: 100vh;
+}
+
+.button4 {
+    background-color: rgb(98, 95, 95);
+    padding: 10px 20px;
+    display: flex;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: black;
+}
+
+.para5 {
+    margin-top: 10px;
+}
+
+.mainPart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 70%;
+    background-color: rgb(95, 90, 90);
+    border-radius: 10px;
+}
+
+.nowBuy {
+    margin-left: 30px;
+}
+.section6 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    height: 40vh;
+}
+.mediaLogo {
+    color: aliceblue;
+}
+.para7 {
+margin-top: 10px;
+letter-spacing: 1px;
+line-height:30px;
+}
+.sociLogo {
+margin-top: 30px;
+}
+.fa-brands {
+margin-left:8px;
+font-size: 25px;
+}
+.headphoneList {
+    height: 90vh;
+
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    column-gap: 50px;
+}
+
+.blackhp {
+    width: 180px;
+    height: 185px;
+    border: 2px solid black;
+    background-color: rgb(75, 75, 75);
+    border-radius: 20px;
+}
+.black{
+    margin-top: -60px;
+    margin-left: 25px;
+}
+.pblack {
+    margin-left: 15px;
+}
+.black2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    column-gap: 50px;
+}
+.productlogo {
+    position: absolute;
+    top: 2500px;
+    left: 40%;
+}
+.email {
+    height: 45px;
+    background-color: rgba(75, 74, 74, 0.945);
+    width: 270px;
+    border: none;
+    text-transform: capitalize;
+    border-radius: 10px;
+    position: relative;
+}
+ .subscribe{
+    /* margin-right: 1rem; */
+    color: rgb(250, 249, 249);
+    width: 8rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: rgb(16, 16, 16);
+    position: absolute;
+    right: 17rem;
+    top: 205.5rem;font-size: 15px;
+
+
+ }
