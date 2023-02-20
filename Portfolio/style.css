@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container1 {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+
+div ul {
+    display: flex;
+    column-gap: 45px;
+}
+
+div ul li {
+    list-style: none;
+}
+
+div ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vH;
+}
+
+.rightSide {
+    width: 70%;
+    height: 90vh;
+    background-image: url("stethoscope.png");
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: 400px 150px;
+}
+
+.leftSide {
+    width: 30%;
+    position: relative;
+    top: 35px;
+    background-image: url("greenBox.png");
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: 40px 150px;
+}
+
+.wriSection {
+    position: absolute;
+    top: 240px;
+    left: 220px;
+}
+
+.headline {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 40px;
+}
+
+.button1 {
+    padding: 12px 30px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    background-color: rgb(16, 186, 92);
+    margin-top: 10px;
+}
+
+.paragph {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.angleButton {
+    position: absolute;
+    left: 460px;
+
+}
+
+.container2 {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(16, 186, 92);
+}
+
+.paragph2 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.button2 {
+    margin: 20px;
+    padding: 15px 45px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px rgb(239, 235, 235);
+}
+
+.button3 {
+    margin: 20px;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow:  2px 2px 2px 0.5px rgb(199, 199, 196);
+
+}
+
+span {
+    color: rgb(16, 186, 92);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.mouseLogo {
+    position: absolute;
+    left: 450px;
+    top: 250px;
+}
+
+.contactForm {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 2px 2px 2px 2px rgb(199, 199, 196);
+    background-color: rgb(250, 249, 249);
+}
+
+.contact {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.name {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.box {
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 200px;
+}
+
+.box2 {
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 200px;
+    height: 70px;
+}
+.button5 {
+    position: absolute;
+    top: 260px;
+    left: 20px;
+    padding: 6px 80px;
+    margin-top: -5px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    
+}
